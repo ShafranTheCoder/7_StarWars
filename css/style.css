@@ -29,29 +29,31 @@ body {
   text-align: justify;
 }
 
-.crawl {
+.flash {
   position: relative;
   top: 9999px;
   transform-origin: 50% 100%;
-  animation: crawl 60s linear;
+  animation: flash 30s linear;
+  animation-iteration-count: infinite;
 }
 
-.crawl > .title {
+.flash>.title {
   font-size: 90%;
   text-align: center;
 }
 
-.crawl > .title h1 {
+.flash>.title h1 {
   margin: 0 0 100px;
   text-transform: uppercase;
 }
 
-@keyframes crawl {
+@keyframes flash {
   0% {
     top: 0;
-    transform: rotateX(20deg)  translateZ(0);
+    transform: rotateX(20deg) translateZ(0);
   }
-  100% { 
+
+  100% {
     top: -6000px;
     transform: rotateX(25deg) translateZ(-2500px);
   }
