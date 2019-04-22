@@ -20,7 +20,7 @@ body {
   position: relative;
   height: 800px;
   color: #feda4a;
-  font-family: 'Pathway Gothic One', sans-serif;
+  font-family: "Pathway Gothic One", sans-serif;
   font-size: 500%;
   font-weight: 600;
   letter-spacing: 6px;
@@ -37,12 +37,12 @@ body {
   animation-iteration-count: infinite;
 }
 
-.flash>.title {
+.flash > .title {
   font-size: 90%;
   text-align: center;
 }
 
-.flash>.title h1 {
+.flash > .title h1 {
   margin: 0 0 100px;
   text-transform: uppercase;
 }
